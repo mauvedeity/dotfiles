@@ -1,0 +1,9 @@
+startup_message off
+caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= %c"
+screen -t edit 0 bash
+screen -t exec 0 bash
+screen -t man 0 bash
+screen -t spare 0 bash
+screen -t info 0 bash
+screen 0
+
