@@ -5,5 +5,5 @@ screen -t exec 0 bash
 screen -t man 0 bash
 screen -t spare 0 bash
 screen -t info 0 bash
-screen 0
+select 0
 
