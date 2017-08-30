@@ -13,7 +13,6 @@ set encoding=utf-8 wm=10 colorcolumn=70 rnu nu
 syntax on 
 "
 " keymaps (where needed)
-" next line turns tab into esc, for that Anker keyboard
-" (or for TB Mac, whenever that happens)
+" next line turns tab into esc for TB Mac/Anker keyboard
 inoremap <tab> <esc>
 
