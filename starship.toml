@@ -1,0 +1,8 @@
+# Customisations
+
+command_timeout = 1000
+add_newline = false
+
+[nodejs]
+disabled = true
+
