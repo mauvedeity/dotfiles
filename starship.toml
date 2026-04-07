@@ -1,6 +1,7 @@
 # Customisations
 
-command_timeout = 1000
+command_timeout = 2000
+scan_timeout = 2000
 add_newline = false
 
 [nodejs]
