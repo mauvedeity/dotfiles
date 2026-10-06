@@ -6,13 +6,10 @@
 "                            
 "
 " set parameters 
-set autoindent beautify sw=2 showmatch showmode writeany report=4
+set autoindent sw=2 showmatch showmode writeany report=4
 set encoding=utf-8 wm=10 colorcolumn=70 rnu nu
 "
 " turn on syntax highlighting
 syntax on 
 "
-" keymaps (where needed)
-" next line turns tab into esc for TB Mac/Anker keyboard
-inoremap <tab> <esc>
 

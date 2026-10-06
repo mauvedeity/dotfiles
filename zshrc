@@ -1,26 +1,17 @@
+# my customisations
+#
+export VISUAL=vim
+export EDITOR="$VISUAL"
+export HOMEBREW_NO_ENV_HINTS=1
+alias ls="ls --color -F"
+
+# locale
+export LANG=en_GB.UTF-8
+
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=/usr/local/sbin:$HOME/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
-export ZSH="/Users/mauvedeity/.oh-my-zsh"
-
-# Which plugins would you like to load?
-# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx)
-
-source $ZSH/oh-my-zsh.sh
-
-# User configuration
-
-# Starship
-#
+# Next line needed for Linux machines with Linuxbrew installed:
+# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
-
-# Homebrew
-#
-export HOMEBREW_NO_ENV_HINTS=TRUE;
 
