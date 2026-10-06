@@ -7,3 +7,10 @@ add_newline = false
 [nodejs]
 disabled = true
 
+[hostname]
+ssh_only = false
+disabled = false
+
+[aws]
+disabled = true
+
