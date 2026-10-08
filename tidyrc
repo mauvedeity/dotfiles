@@ -1,0 +1,8 @@
+# tidyrc
+#
+indent: auto
+indent-spaces: 2
+wrap: 132
+tidy-mark: no
+quiet: yes
+
