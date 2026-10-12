@@ -3,8 +3,7 @@
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export HOMEBREW_NO_ENV_HINTS=1
-alias ls="ls --color -F"
-
+alias ls="ls --color=auto -F"
 # locale
 export LANG=en_GB.UTF-8
 
