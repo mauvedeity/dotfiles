@@ -14,3 +14,6 @@ disabled = false
 [aws]
 disabled = true
 
+[username]
+show_always = true
+
